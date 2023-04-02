@@ -40,7 +40,6 @@ function App() {
       <Route  path="/Meal" element={<Meal/>}/>
       <Route exact path="/:recipeId" element={<Recipe/>}/>
       </Routes>
-      
     </BrowserRouter>
   )
 }
